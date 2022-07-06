@@ -1,0 +1,157 @@
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.mainlogin {
+  min-height: calc(100vh - 211px - -20px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/photo-1632869407590-12692572dc62.avif");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/photo-1632869407590-12692572dc62.avif");
+  background-size: cover;
+}
+
+.mainlogin .cardbegin {
+  padding-top: 5%;
+}
+
+.navbar-one {
+  background-color: #e4e6eb;
+  color: black;
+  height: 20px;
+}
+
+.Plaintext:hover {
+  color: #f8c300;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-light .navbar-nav {
+  font-family: 'Lora', serif;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: black;
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: #f8c300;
+  color: black;
+}
+
+header {
+  padding: 180px 0 165px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/photo-1632869407590-12692572dc62.avif");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/photo-1632869407590-12692572dc62.avif");
+  background-size: cover;
+}
+
+header h1 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+header p {
+  font-size: 22px;
+  color: white;
+  font-family: 'Lora', serif;
+}
+
+.btn-Penawaran {
+  font-family: 'Lora', serif;
+  background-color: #f8c300;
+  color: black;
+}
+
+.btn-Penawaran:hover {
+  background-color: #d8aa01;
+  color: black;
+}
+
+.section-intro {
+  min-height: 540px;
+  margin-bottom: 100px;
+}
+
+.section-intro .section-intro-heading {
+  margin-top: 50px;
+}
+
+.section-intro .section-intro-heading h2,
+.section-intro .section-intro-heading p {
+  color: black;
+}
+
+.section-intro .section-intro-heading h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-intro .section-intro-heading p {
+  font-family: 'Lora', serif;
+}
+
+.section-intro .section-intro-heading li {
+  font-family: 'Lora', serif;
+  color: black;
+}
+
+.section-intro .section-documentation-heading {
+  margin-top: 50px;
+}
+
+.section-intro .section-documentation-heading h2,
+.section-intro .section-documentation-heading p {
+  color: black;
+}
+
+.section-intro .section-documentation-heading h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-intro .section-documentation-heading p {
+  font-family: 'Lora', serif;
+}
+
+.section-intro .card-image {
+  margin-top: 50px;
+}
+
+.form-label {
+  color: black;
+}
+
+.btn-primary {
+  background-color: #d8aa01;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  color: white;
+}
+
+.section-footer {
+  background-color: black;
+  color: #f8c300;
+  margin-bottom: -500px;
+}
+
+.section-footer a {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

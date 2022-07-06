@@ -1,0 +1,179 @@
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.mainlogin{
+  min-height: calc(100vh - 211px - -20px);
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/photo-1632869407590-12692572dc62.avif');
+  background-size: cover;
+  
+  .cardbegin{
+    padding-top: 5%;
+  }
+}
+
+.navbar-one {
+  background-color: #e4e6eb;
+  color: black;
+  height: 20px;
+}
+
+.Plaintext {
+
+  &:hover {
+    color: #f8c300;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+}
+
+
+.navbar-brand {
+  img {
+    max-height: 50px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    font-family: 'Lora', serif;
+
+
+  }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: black;
+  color: white;
+
+  &:hover {
+    background-color: #f8c300;
+    color: black;
+
+  }
+}
+
+// header
+header {
+  padding: 180px 0 165px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/photo-1632869407590-12692572dc62.avif');
+  background-size: cover;
+
+
+  h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  p {
+    font-size: 22px;
+    color: white;
+    font-family: 'Lora', serif;
+  }
+
+}
+
+.btn-Penawaran {
+  font-family: 'Lora', serif;
+  background-color: #f8c300;
+  color: black;
+
+  &:hover {
+    background-color: #d8aa01;
+    color: black;
+  }
+}
+
+// intro
+.section-intro {
+  min-height: 540px;
+  margin-bottom: 100px;
+
+
+
+  .section-intro-heading {
+    margin-top: 50px;
+
+
+    h2,
+    p {
+      color: black;
+    }
+
+    h2 {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    p {
+      font-family: 'Lora', serif;
+    }
+
+    li {
+
+      font-family: 'Lora', serif;
+      color: black;
+    }
+  }
+
+  .section-documentation-heading {
+    margin-top: 50px;
+
+
+    h2,
+    p {
+      color: black;
+    }
+
+    h2 {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    p {
+      font-family: 'Lora', serif;
+    }
+  }
+
+  .card-image {
+    margin-top: 50px;
+  }
+
+}
+
+// formPenawaran
+.form-label {
+  color: black;
+}
+
+.btn-primary {
+  background-color: #d8aa01;
+  color: black;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+
+// Footer
+.section-footer {
+  background-color: black;
+  color: #f8c300;
+  margin-bottom:-500px;
+  a {
+    color: white;
+  }
+}
