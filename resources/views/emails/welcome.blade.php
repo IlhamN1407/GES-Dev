@@ -1,11 +1,11 @@
 @component('mail::message')
-# Terimakasih telah melakukan penawaran
+# Terima kasih telah melakukan penawaran
 Silahkan Click tombol ini untuk melanjutkan penawaran.
 
-@component('mail::button', ['url' => 'https://wa.me/6285280428152?text=Saya%20sudah%20mengirim%20form'])
-Chat us
+@component('mail::button', ['url' => 'https://wa.me/6281398951775?text=Saya%20sudah%20mengirim%20form'])
+Hubungi Kami
 @endcomponent
 
-Thanks,<br>
+Terima kasih,<br>
 {{ config('app.name') }}
 @endcomponent
