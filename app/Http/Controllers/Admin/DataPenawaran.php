@@ -4,9 +4,13 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\DataPenawaran as RequestsDataPenawaran;
+use App\Mail\mailSend;
+use App\Mail\WelcomeMail;
 use App\Models\Penawaran;
+use App\Models\User;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 
 
@@ -70,7 +74,9 @@ class DataPenawaran extends Controller
      */
     public function show($id)
     {
-        //
+        $penawaran = Penawaran::findorfail($id);
+        Mail::to($penawaran->email)->send(new WelcomeMail);
+        return redirect()->route('DataPenawaran.index');
     }
 
     /**
@@ -120,4 +126,5 @@ class DataPenawaran extends Controller
 
         return redirect()->route('DataPenawaran.index');
     }
+
 }

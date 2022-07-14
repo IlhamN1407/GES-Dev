@@ -50,6 +50,9 @@
                                             class="btn btn-info">
                                             <i class="fa fa-pencil-alt"></i>
                                         </a>
+                                        <a href="{{ route('DataPenawaran.show', $item->id_penawaran) }}" class="btn btn-info">
+                                            <i class="fa fa-paper-plane"></i>
+                                        </a>
                                         <form action="{{ route('DataPenawaran.destroy', $item->id_penawaran) }}"
                                             method="POST" class="d-inline">
                                             @csrf
